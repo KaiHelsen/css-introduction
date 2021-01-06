@@ -4,10 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <title>Kai's page</title>
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<div>
+<div id="introduction">
     <!--
     Your name (big header)
     In italics an inspirational quote
@@ -33,7 +34,7 @@
     Pinneapple on pizza: Yes/No (Extra challenge: make it look like a (un)checked checkbox)
     -->
 
-    <table>
+    <table class = "centered">
         <tr>
             <th>Birthday:</th>
             <td>05/11</td>
@@ -62,7 +63,7 @@
     At least on item should contain a sublist, for example if you like movies, maybe make a sublist of some movies you really like.
     -->
     <h3>Hobbies</h3>
-    <ul>
+    <ul class="centered">
         <li>2D art
         <ul>
             <li>drawing</li>
@@ -104,12 +105,13 @@
     Tell a short funny story about your life.
     -->
     <h5>A funny story</h5>
-    <p>Several years ago, me and some friends from College were crunching on our 1st year project. For this project, we worked on a small house in maya</p>
-    <p>As everyone was stressed and under pressure, people went a little loopy. Up until the point one of my friends asked: <i>Does this circle look round?</i></p>
-    <p>Upon hearing this strange question I burst out in laughter and simply couldn't stop. Several others caught on and started laughing as well</p>
-    <p>For about ten minutes, we just laughed while trying to work before we managed to regain a semblance of sanity.</p>
-    <p>However, it started back up the moment someone said "Have you seen the book?"</p>
-
+    <div id="story">
+        <p>Several years ago, me and some friends from College were crunching on our 1st year project. For this project, we worked on a small house in maya</p>
+        <p>As everyone was stressed and under pressure, people went a little loopy. Up until the point one of my friends asked: <i>Does this circle look round?</i></p>
+        <p>Upon hearing this strange question I burst out in laughter and simply couldn't stop. Several others caught on and started laughing as well</p>
+        <p>For about ten minutes, we just laughed while trying to work before we managed to regain a semblance of sanity.</p>
+        <p>However, it started back up the moment someone said "Have you seen the book?"</p>
+    </div>
     <!--
     TL;DR (even smaller header, under funny story)
     Summarise your funny story in one short sentence.
@@ -118,19 +120,18 @@
     <p>Someone saying <i>Does this circle look round</i> is very funny when you're stressed and tired.</p>
 </div>
 
-<div>
+<div id = "navigation">
     <!--
-
 
     At the bottom of the page there should be a next and previous link, this should link to the page of the previous student (alphabetically) and the next one.
     Organise yourself so it is easy to know who you should link to.
 
     The links should have the following structure:
-
     << previous || YOUR NAME || next >>
     -->
 
-    <a href="Link to Julio Cesar's page"> &lt;&lt;previous</a> || KAI || <a href="link to Laila's page">next &gt;&gt;</a>
+    <a href="https://juliocesarteixeira.github.io/html-introduction/"> &lt;&lt;previous</a> || KAI || <a href="link to Laila's page">next &gt;&gt;</a>
 </div>
+
 </body>
 </html>
